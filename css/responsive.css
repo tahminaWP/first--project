@@ -1,0 +1,134 @@
+/* Medium Layout:1280px. */
+
+@media only screen and (min-width:992px) and (max-width:1200px) {
+  .area{
+      width:970px;
+  }
+  .logo {
+      width: 240px;
+  }
+  .menu {
+      width: 590px;
+  }
+  .single-service {
+     width: 310px;
+  }
+  .about-left {
+     width: 670px;
+  }
+  .about-menu {
+     width: 270px;
+  }
+  .service-page .single-service {
+    width: 310px;
+   
+}
+.service-page .single-service:nth-child(3), .service-page .single-service:nth-child(6){
+  margin-right:0;
+}
+.service-page .single-service:nth-child(4){
+  margin-right:20px;
+}
+.single-gallery {
+  width: 231px;
+  margin-right: 15px;
+  }
+  .contact-form {
+    width: 620px;
+    }
+}
+
+/* Teblet Layout:768px. */
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .area{
+     width:750px;
+    }
+    .logo {
+    width: 210px;
+ } 
+ .menu {
+     width: 510px;
+   }
+   .menu ul li a {
+    
+     padding: 3px 15px;
+     font-size: 16px;
+     margin-top: 5px;
+    }
+    .single-service {
+      width: 236px;
+    }
+    .about-left {
+    width: 450px;
+     }
+     .service-page .single-service {
+      width: 236px;
+     }
+     .service-page .single-service:nth-child(3), .service-page .single-service:nth-child(6){
+      margin-right:0;
+    }
+    .service-page .single-service:nth-child(4){
+      margin-right:20px;
+    }
+    .single-gallery {
+     width: 180px;
+      margin-right: 10px;
+     }
+     .contact-form, .contact-address {
+       width:100%;
+     }
+ }
+ 
+ /* Mobile Layout:320px. */
+ 
+ @media only screen and (max-width:767px) {
+   .area{
+     width:300px;
+   }
+   .menu, .about-left, .about-menu, .single-gallery, .contact-form, .contact-address{
+    width: 100%;
+  }
+  .about-left,.contact-form{
+    margin-bottom:20px;
+  }
+  .menu ul {
+    text-align:center;
+  }
+  .title h4 {
+      font-size: 23px;
+      margin: 9px 0;
+      }
+      .single-service {
+         width: 100%;
+         margin-bottom:20px;
+        }
+        .page-bannar {
+          padding: 100px 0;
+        }
+        .page-bannar h4 {
+          font-size: 31px;
+        }
+        .service-page .single-service {
+          width: 100%;
+      }
+
+
+      
+ 
+ }
+ 
+ /* Wide Mobile Layout: 480px. */
+ 
+ @media only screen and (min-width:480px) and (max-width:767px) {
+      .area{
+        width:450px;
+      }
+      .single-service {
+        background-color: burlywood;
+    }
+    .single-gallery{
+      width:45%;
+    }
+ 
+ }
